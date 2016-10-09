@@ -1,0 +1,64 @@
+.ProfileEditor {
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 3px;
+  background: #fff;
+  position: relative;
+  padding-bottom: 24px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+  padding: 0 24px 24px 24px;
+}
+
+.ProfileEditor label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 0;
+}
+
+.ProfileEditor input,
+.ProfileEditor textarea {
+  outline: none;
+}
+
+.ProfileEditor input[type="text"],
+.ProfileEditor textarea {
+  display: block;
+  border: 2px solid #eee;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 8px !important;
+  resize: none;
+  transition: border-color 350ms;
+}
+
+.ProfileEditor input[type="file"] {
+  display: block;
+  margin-top: 8px;
+}
+
+.ProfileEditor input[type="text"]:focus,
+.ProfileEditor textarea:focus {
+  border-color: #ccc;
+}
+
+.ProfileEditor input[type="submit"] {
+  font-size: 18px;
+  font-weight: bold;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 12px 24px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.ProfileEditor-title {
+  font-size: 24px;
+  text-align: center;
+  padding: 24px 0;
+}
